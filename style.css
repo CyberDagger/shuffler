@@ -1,4 +1,27 @@
 body {
+    display: block;
     background-color: mediumseagreen;
     text-align: center;
 }
+
+#deck {
+    display: block;
+    position: static;
+}
+
+#deck ul {
+    list-style-type: none;
+    padding: 0;
+    position: absolute;
+}
+
+#deck ul li {
+    float: left;
+    position: absolute;
+}
+
+#deck ul li:nth-child(1)  { left: 0;    bottom: 0; }
+#deck ul li:nth-child(2)  { left: 1px;  bottom: 2px; }
+#deck ul li:nth-child(3)  { left: 2px;  bottom: 4px; }
+#deck ul li:nth-child(4)  { left: 3px;  bottom: 6px; }
+#deck ul li:nth-child(5)  { left: 4px;  bottom: 8px; }
