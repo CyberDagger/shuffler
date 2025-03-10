@@ -7,21 +7,35 @@ body {
 #deck {
     display: block;
     position: static;
+    height: 170px;
+    border: 3px solid black;
 }
 
 #deck ul {
     list-style-type: none;
     padding: 0;
-    position: absolute;
+    position: static;
 }
 
 #deck ul li {
     float: left;
-    position: absolute;
+    position: relative;
 }
 
 #deck ul li:nth-child(1)  { left: 0;    bottom: 0; }
-#deck ul li:nth-child(2)  { left: 1px;  bottom: 2px; }
-#deck ul li:nth-child(3)  { left: 2px;  bottom: 4px; }
-#deck ul li:nth-child(4)  { left: 3px;  bottom: 6px; }
-#deck ul li:nth-child(5)  { left: 4px;  bottom: 8px; }
+#deck ul li:nth-child(2)  { left: -95px;  bottom: 2px; }
+#deck ul li:nth-child(3)  { left: -190px;  bottom: 4px; }
+#deck ul li:nth-child(4)  { left: -285px;  bottom: 6px; }
+#deck ul li:nth-child(5)  { left: -380px;  bottom: 8px; }
+
+#cards {
+    position: static;
+    border: 3px solid black;
+    width: 70%;
+    margin: auto;
+}
+
+#cards img {
+    float: left;
+    margin: 5px;
+}
