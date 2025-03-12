@@ -11,7 +11,6 @@ body {
 
 #deck {
     position: static;
-    border: 3px solid black;
 }
 
 #deck ul {
@@ -48,4 +47,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     margin: 5px;
+    width: 96px;
+    height: 144px;
 }
